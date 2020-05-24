@@ -1,8 +1,15 @@
-class Test13
+ class Test13
 {
 public static void main(String args[])
 {
-String dir="D:/java/Hello.java";
-System.out.println(dir);
+Student st=null;
+System.out.println("Main");
+}
+}
+class Student
+{
+static
+{
+System.out.println("st block");
 }
 }

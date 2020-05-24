@@ -2,7 +2,12 @@ class Test2
 {
 public static void main(String args[])
 {
-boolean b=0;
-System.out.println('0');
+Student st=new Student();
+st.name="sri";
+System.out.println(st.sname);
 }
-} 
+}
+class Student
+{
+String sname;
+}

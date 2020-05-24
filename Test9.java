@@ -1,9 +1,9 @@
 class Test9
 {
-static String name;
-public static void main(String arg[])
+static String email=null;
+email="sri@jlc.com";
+public static void main(String args[])
 {
-System.out.println(name);
-System.out.println(name.length());
+System.out.println(email);
 }
 }

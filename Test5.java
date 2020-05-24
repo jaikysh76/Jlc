@@ -1,8 +1,13 @@
 class Test5
 {
-public static void main(String arg[])
+public static void main(String args[])
 {
-char ch='\';
-System.out.println(ch);
+Student st=null;
+st.name="nivas";
+System.out.println(st.name);
 }
+}
+class Student
+{
+static String name;
 }

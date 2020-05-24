@@ -1,8 +1,11 @@
-class Test12
+class Test12{
+public static void main(String agrs[])
 {
-public static void main(String args[])
+System.out.println(email);
+}
+new Test();
+System.out.println(email);
+static String email=null;
 {
-String data="value is \61";
-System.out.println(data);
-}
-}
+email="sri@jlc.com";
+}}

@@ -1,8 +1,12 @@
 class Test7
 {
-public static void main(String ars[])
+public static void main(String args[])
 {
-char ch=65535;
-System.out.println(ch+1);
+System.out.println(new Student().name="Sri");
+System.out.println(new Student().name);
 }
+}
+class Student
+{
+String name;
 }

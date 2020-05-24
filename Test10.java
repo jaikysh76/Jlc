@@ -1,9 +1,13 @@
-class Test10
+class Lab10
 {
-static String name="null";
-public static void main(String arg[])
+static String email=null;
 {
-System.out.println(name);
-System.out.println(name.length());
+email="sri@jlc.com";
 }
+
+public static void main(String args[])
+{
+System.out.println(email);
+}
+
 }
