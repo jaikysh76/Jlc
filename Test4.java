@@ -2,12 +2,18 @@ class Test4
 {
 public static void main(String args[])
 {
-Student st=null;
-st.name="Nivas";
-System.out.println(st.name);
+Hello h=new Hello(10);
+System.out.println(h.a);
 }
 }
-class Student
+class Hello
 {
-String name;
+int a;
+Hello(int a)
+{
+System.out.println("Hello Cons");
+this.a=a;
+return ;
+
+}
 }

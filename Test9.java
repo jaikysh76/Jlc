@@ -1,9 +1,20 @@
 class Test9
 {
-static String email=null;
-email="sri@jlc.com";
 public static void main(String args[])
 {
-System.out.println(email);
+Hello h=new Hello();
+h.Hello(10);
+}
+}
+class Hello
+{
+int a;
+Hello()
+{
+System.out.println("Hello cons");
+}
+void Hello(int a)
+{
+System.out.println("void Hello Cons");
 }
 }

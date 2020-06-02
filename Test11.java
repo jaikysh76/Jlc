@@ -2,11 +2,14 @@ class Test11
 {
 public static void main(String args[])
 {
-System.out.println(email);
+Hello h=new Hello(12);
+System.out.println("ok");
 }
-
-static String email=null;
-static{
-email="sri@jlc.com";
+}
+class Hello
+{
+Hello(int a)
+{
+System.out.println(this.a);
 }
 }

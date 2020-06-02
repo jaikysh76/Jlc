@@ -1,11 +1,19 @@
-class Test12{
-public static void main(String agrs[])
+class Test12
 {
-System.out.println(email);
+public static void main(String args[])
+{
+Hello h=new Hello(12);
 }
-new Test();
-System.out.println(email);
-static String email=null;
+}
+class Hello
 {
-email="sri@jlc.com";
-}}
+Hello()
+{
+System.out.println("Hello 1");
+}
+Hello(int a)
+{
+Hello();
+System.out.println("Hello 2");
+}
+}

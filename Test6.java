@@ -1,13 +1,13 @@
 class Test6
 {
 public static void main(String args[])
-{
-Student st=null;
-st.name="Nivas";
-System.out.println(st.name);
+Hello h=new Hello();
 }
 }
-class Student
+class Hello{
+int a;
+Hello(int a)
 {
-String name;
+System.out.println("Hello Cons");
+}
 }

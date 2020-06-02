@@ -2,11 +2,14 @@ class Test1
 {
 public static void main(String args[])
 {
-Student st=new Student();
-System.out.println(st.name);
+Hello h=new Hello();
 }
 }
-class Student
+class Hello
 {
-String sname;
+int a;
+Hello()
+{
+System.out.println("Hello Cons");
+}
 }

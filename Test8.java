@@ -1,9 +1,17 @@
 class Test8
 {
-public static void main(String args[])
+public static void main(String rgs[])
 {
-String email=null;
-email="sri@jlc.com";
-System.out.println(email);
+Hello h=new Hello();
+}
+}
+class Hello
+{
+int a;
+Hello(){
+this(10);
+}
+Hello(int a){
+System.out.println("Hello Cons");
 }
 }

@@ -1,16 +1,18 @@
-class Test3
+class Test5
 {
 public static void main(String args[])
 {
-Hello h=new Hello();
+Hello h=new Hello(10);
+System.out.println(h.a);
 }
 }
 class Hello
 {
 int a;
-Hello()
+Hello(int a)
 {
 System.out.println("Hello Cons");
-return;
+a=a;
+return ;
 }
 }
